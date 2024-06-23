@@ -1,0 +1,282 @@
+
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    
+}
+
+.logo{
+    background-image: url('amazon_logo.png');
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+
+/** box 2 **/
+.add-bot{
+    font-weight: normal;
+    margin-left: 4px;
+    font-size: 0.95rem;
+    font-weight: 550;
+}
+
+.add-top{
+    color: #cccccc;
+    font-size: 0.7rem;
+    margin-left: 14px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/** box 3 **/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0f1111;
+    width: 875px;
+    height: 40px;
+    border-radius: 7px;
+    border: 3px transparent solid;
+}
+
+.nav-search:hover{
+    border: 3px #febd68 solid;
+}
+
+.search-select{
+    background-color: #cdcdcd;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    font-size: 0.8rem;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 0.95rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+/** box 4 **/
+.lang{
+    display: flex;
+}
+
+.us-icon{
+    margin-top: 8px;
+    width: 18px;
+}
+
+.language{
+    font-weight: 550;
+    font-size: 0.9rem;
+    margin-left: 4px;
+    margin-top: 10px;
+}
+
+.caret-down{
+    color: #cdcdcd;
+    margin-left: 2px;
+    margin-top: 13px;
+    font-size: 0.7rem;
+}
+
+/** box 5 **/
+.nav-bot{
+    font-weight: normal;
+    margin-left: 4px;
+    font-size: 0.8rem;
+    font-weight: 550;
+}
+
+.nav-top{
+    color: #e9e7e7;
+    font-size: 0.8rem;
+    margin-left: 4px;
+}
+.sign-in-bot{
+    display: flex;
+}
+
+.caret-down-2{
+    color: #cdcdcd;
+    margin-left: 4px;
+    margin-top: 2px;
+    font-size: 0.7rem;
+}
+
+/** box 6 **/
+.nav-cart{
+    display: flex;
+}
+
+.nav-cart-logo{
+    font-size: 1.7rem;
+}
+
+.p1{
+    margin-top: 16px;
+}
+
+/** panel **/
+
+.panel{
+    display: flex;
+    font-size: 14px;
+}
+
+.panel-bg{
+    background-color: #232f3e;
+    height: 39px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.panel-choice p {
+    display: inline;
+    margin-left: 14px;
+}
+
+.panel-fonts{
+    color: white;
+}
+
+.panel-all{
+    display: flex;
+    margin-left: 14px;
+}
+
+#h1{
+    margin-left: 5px;
+}
+
+
+/** hero section **/
+.hero-section{
+    background-size: cover;
+    background-image: url(hero_image.jpg);
+    height: 370px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center; 
+}
+
+.hero-message{
+    color: black;
+    background-color: white;
+    height: 40px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%; 
+    margin-bottom: 20px;
+}
+
+.hero-message a{
+    color: #001785;
+}
+
+#products-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #d4ebf9; /*For browsers that do not support gradients*/
+    background: linear-gradient( #d4ebf9 0%,  rgb(254, 254, 254) 70%);
+}
+
+.product{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    width: 340px; /*for it will be about 1/4 from the width*/
+    height: 420px;
+    background-color: white;
+}
+
+.fashion-box{
+    margin-top: 5%;
+    height: 95%;
+    width: 90%;
+}
+
+.product p2{
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: black;
+    margin-top: 20px;
+    margin-right: 25%;
+    margin-bottom: 10px;
+}
+
+.fashion-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fashion-place{
+    height: 115px;
+    width: 145px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+#fashion-2{
+    margin-left: px;
+    
+}
+
+.product-text{
+    color: black;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+#product-text2{
+    margin-left: 15px;
+}
